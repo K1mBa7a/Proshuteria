@@ -1,14 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.AspNetCore.Identity;
 
 namespace proshuteria.Data
 {
-    public class Client:IdentityRole
+    public class Client:IdentityUser
     {
-        public int ClientId { get; set; }
 
-        public string ClientFirstName { get; set; }
+        public string FirstName { get; set; }
 
-        public string ClientLastName { get; set; }
+        public string LastName { get; set; }
 
         public ICollection<Order>Orders { get; set; } //1:M
     }

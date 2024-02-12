@@ -144,3 +144,4 @@ C:\Users\nikoo\OneDrive\Desktop\Proshuteria\proshuteria\obj\Debug\net8.0\refint\
 C:\Users\nikoo\OneDrive\Desktop\Proshuteria\proshuteria\obj\Debug\net8.0\proshuteria.pdb
 C:\Users\nikoo\OneDrive\Desktop\Proshuteria\proshuteria\obj\Debug\net8.0\proshuteria.genruntimeconfig.cache
 C:\Users\nikoo\OneDrive\Desktop\Proshuteria\proshuteria\obj\Debug\net8.0\ref\proshuteria.dll
+C:\Users\nikoo\OneDrive\Desktop\Proshuteria\proshuteria\obj\Debug\net8.0\proshuteria.sourcelink.json

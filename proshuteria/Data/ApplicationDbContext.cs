@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace proshuteria.Data
 {
-    public class ApplicationDbContext:IdentityDbContext
+    public class ApplicationDbContext:IdentityDbContext<Client>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -14,7 +14,7 @@ namespace proshuteria.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<MeatCategory> MeatCategories { get; set; }
          
-        public DbSet<IdentityRole> IdentityRoles { get; set; }
+        
     }
 }
 

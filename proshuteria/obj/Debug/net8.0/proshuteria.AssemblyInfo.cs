@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("proshuteria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74d9ba5aa4c37d47e7911453d0dac1eb8e2217a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42e1ea80c196de6e50302451408b2af67c63dde9")]
 [assembly: System.Reflection.AssemblyProductAttribute("proshuteria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proshuteria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

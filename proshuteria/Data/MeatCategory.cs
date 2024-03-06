@@ -15,6 +15,6 @@ namespace proshuteria.Data
 
         //Connection 1 - - - > M
         
-        public ICollection<Meat>Meats { get; set; }
+        public ICollection<Meat> Meats { get; set; }
     }
 }

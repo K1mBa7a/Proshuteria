@@ -10,7 +10,8 @@ namespace proshuteria.Data
 
         public string Name { get; set; }
 
-        public int CategoryMeatId { get; set; } // FK M  - - - > 1
+       
+        public int MeatCategoryId { get; set; } // FK M  - - - > 1
         public MeatCategory MeatCategories { get; set; } // Table
 
         [Column(TypeName ="decimal(10,2)")]
@@ -22,6 +23,6 @@ namespace proshuteria.Data
 
         public string ImageUrl { get; set; }
 
-        public ICollection<Order>Orders { get; set; }
+        public ICollection<Order> Orders { get; set; }
     }
 }

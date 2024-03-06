@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = proshuteria
 build_property.RootNamespace = proshuteria
@@ -28,6 +36,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/MeatCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/MeatCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdENhdGVnb3JpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/MeatCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdENhdGVnb3JpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/MeatCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdENhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/MeatCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdENhdGVnb3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/Meats/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/Meats/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/Meats/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/Meats/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/Meats/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nikoo/OneDrive/Desktop/Proshuteria/proshuteria/Views/Shared/Error.cshtml]

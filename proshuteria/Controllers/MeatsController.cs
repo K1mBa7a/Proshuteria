@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using proshuteria.Data;
 
 namespace proshuteria.Controllers
@@ -23,6 +24,33 @@ namespace proshuteria.Controllers
         {
             var applicationDbContext = _context.Meats.Include(m => m.MeatCategories);
             return View(await applicationDbContext.ToListAsync());
+        }
+
+        /*public async Task<IActionResult> Products()
+        {
+            var applicationDbContext = _context.Meats.Include(m => m.MeatCategories);
+            return View(await applicationDbContext.ToListAsync());
+        }*/
+
+        public async Task<IActionResult> Products(string searchString)
+        {
+            if (searchString.IsNullOrEmpty())
+            {
+                return View(await _context.Meats.ToListAsync());
+            }
+
+            if (_context.Meats == null)
+            {
+                return Problem("Няма вина в асортимента, моля проверете по-късно!");
+            }
+
+
+            var meats = from m in _context.Meats select m;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                meats = meats.Where(s => s.Name.Contains(searchString) || s.MeatCategories.Name.Contains(searchString));
+            }
+            return View(meats.ToList());
         }
 
         // GET: Meats/Details/5
@@ -59,14 +87,14 @@ namespace proshuteria.Controllers
         public async Task<IActionResult> Create([Bind("CatalogeNumber,Name,MeatCategoryId,Price,Description,ImageUrl")] Meat meat)
         {
             meat.DateCreated = DateTime.Now;
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                _context.Add(meat);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                ViewData["MeatCategoryId"] = new SelectList(_context.MeatCategories, "Id", "Name", meat.MeatCategoryId);
+                return View(meat);
             }
-            ViewData["MeatCategoryId"] = new SelectList(_context.MeatCategories, "Id", "Name", meat.MeatCategoryId);
-            return View(meat);
+            _context.Meats.Add(meat);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Meats/Edit/5
@@ -91,36 +119,38 @@ namespace proshuteria.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,CatalogeNumber,Name,MeatCategoryId,Price,DateCreated,Description,ImageUrl")] Meat meat)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,CatalogeNumber,Name,MeatCategoryId,Price,Description,ImageUrl")] Meat meat)
         {
             if (id != meat.Id)
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
+            meat.DateCreated = DateTime.Now;
+            if (!ModelState.IsValid)
             {
-                try
-                {
-                    _context.Update(meat);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!MeatExists(meat.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        meat.DateCreated = DateTime.Now;
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                ViewData["MeatCategoryId"] = new SelectList(_context.MeatCategories, "Id", "Name", meat.MeatCategoryId);
+                return View(meat);
             }
-            ViewData["MeatCategoryId"] = new SelectList(_context.MeatCategories, "Id", "Name", meat.MeatCategoryId);
-            return View(meat);
+
+            try
+            {
+                _context.Meats.Update(meat);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!MeatExists(meat.Id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    meat.DateCreated = DateTime.Now;
+                    throw;
+                }
+            }
+            return RedirectToAction(nameof(Index));
+
         }
 
         // GET: Meats/Delete/5

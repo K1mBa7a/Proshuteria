@@ -1,8 +1,37 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Начална страница";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="landing-image position-relative">
+    <img src="~/images/landing.jpg" class="landing-img2" alt="Landing Image">
+    <div class="landing-text">
+        <h1 class="display-4">Добре дошли</h1>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="text-center">За нас</h2>
+            <p class="text-center">Добре дошли в нашата Прошутерия, където ароматът на прясно изпечени месни изделия се слива с уютната обстановка и приятелското обслужване! Във всяко парче месо, което предлагаме, се крие грижата и страстта ни към качеството и вкуса.</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="~/images/za-nas.jpg" alt="За нас" class="za-nas img-fluid">
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2 class="text-center">Галерия</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <img src="~/images/home1.jpg" alt="Прошуто 1" class="img-fluid gallery-image mb-3">
+        </div>
+        <div class="col-md-4">
+            <img src="~/images/home2.jpg" alt="Прошуто 2" class="img-fluid gallery-image gallery-2 mb-3">
+        </div>
+        <div class="col-md-4">
+            <img src="~/images/home3.webp" alt="Прошуто 3" class="img-fluid gallery-image gallery-3 mb-3">
+        </div>
+    </div>
 </div>

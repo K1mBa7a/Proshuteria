@@ -1,0 +1,31 @@
+﻿@model IEnumerable<proshuteria.Data.Meat>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1 class="text-center mb-4">Нашите Вкусни Меса</h1>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Номер: @Html.DisplayFor(modelItem => item.CatalogeNumber)</li>
+                    <li class="list-group-item">Категория: @Html.DisplayFor(modelItem => item.MeatCategories.Name)</li>
+                    <li class="list-group-item">Цена: @Html.DisplayFor(modelItem => item.Price)лв.</li>
+                    <li class="list-group-item">Регистрация: @Html.DisplayFor(modelItem => item.DateCreated)</li>
+                </ul>
+                <div class="card-body">
+					<a asp-controller="Orders" asp-action="Create" asp-route-id="@item.Id" class="card-link">Поръчай</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -53,7 +53,7 @@ namespace proshuteria.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name,Description,RegisterOn")] MeatCategory meatCategory)
+        public async Task<IActionResult> Create([Bind("Name,Description")] MeatCategory meatCategory)
         {
             meatCategory.RegisterOn = DateTime.Now;
             if (!ModelState.IsValid)
@@ -87,7 +87,7 @@ namespace proshuteria.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,RegisterOn")] MeatCategory meatCategory)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description")] MeatCategory meatCategory)
         {
             if (id != meatCategory.Id)
             {
@@ -98,7 +98,8 @@ namespace proshuteria.Controllers
             {
                 try
                 {
-                    _context.Update(meatCategory);
+                    meatCategory.RegisterOn = DateTime.Now;
+                    _context.MeatCategories.Update(meatCategory);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)

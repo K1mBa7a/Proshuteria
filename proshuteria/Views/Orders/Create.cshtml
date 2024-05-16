@@ -1,0 +1,48 @@
+﻿@model proshuteria.Data.Order
+
+@{
+    ViewData["Title"] = "Създаване";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h4 class="text-center">Поръчка</h4>
+            <hr />
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="MeatId" class="control-label">Месо</label>
+                    <select asp-for="MeatId" class="form-control" asp-items="ViewBag.MeatId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Quantity" class="control-label">Количество</label>
+                    <input asp-for="Quantity" class="form-control" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-2">
+                    <input type="submit" value="Създай" class="btn btn-primary w-100" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@if (User.IsInRole("Admin")) {
+<div class="text-center mt-3">
+    <a asp-action="Index" class="btn btn-secondary">Обратно към списъка</a>
+    </div>
+} else
+{
+    <div class="text-center mt-3">
+        <a asp-controller="Meats" asp-action="Products" class="btn btn-secondary">Обратно към продуктите</a>
+    </div>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

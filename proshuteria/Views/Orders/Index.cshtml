@@ -1,0 +1,74 @@
+﻿@model IEnumerable<proshuteria.Data.Order>
+
+@{
+    ViewData["Title"] = "Поръчки";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <p class="text-end">
+                <a asp-action="Create" class="btn btn-primary">Направи поръчка</a>
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Клиент
+                        </th>
+                        <th>
+                            Месо
+                        </th>
+                        <th>
+                            Единична цена
+                        </th>
+                        <th>
+                            Количество
+                        </th>
+                        <th>
+                            Обща цена
+                        </th>
+                        <th>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <span>Действия</span>
+                            }
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Clients.UserName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Meats.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Meats.Price) лв.
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Quantity) бр.
+                            </td>
+                            <td>
+                                @(item.Meats.Price * item.Quantity) лв.
+                            </td>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Редактирай</a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Детайли</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Изтрий</a>
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

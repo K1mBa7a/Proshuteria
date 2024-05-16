@@ -1,0 +1,30 @@
+﻿@model proshuteria.Data.Order
+
+@{
+    ViewData["Title"] = "Детайли";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <div>
+                <h4>Поръчка</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-2">Клиент</dt>
+                    <dd class="col-sm-10">@Html.DisplayFor(model => model.Clients.UserName)</dd>
+                    <dt class="col-sm-2">Месо</dt>
+                    <dd class="col-sm-10">@Html.DisplayFor(model => model.Meats.Name)</dd>
+                    <dt class="col-sm-2">Количество</dt>
+                    <dd class="col-sm-10">@Html.DisplayFor(model => model.Quantity)</dd>
+                </dl>
+            </div>
+            <div class="mt-3">
+                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Редактиране</a>
+                <a asp-action="Index" class="btn btn-secondary">Обратно към списъка</a>
+            </div>
+        </div>
+    </div>
+</div>

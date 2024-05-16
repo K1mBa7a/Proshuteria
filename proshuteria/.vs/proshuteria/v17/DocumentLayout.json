@@ -1,0 +1,555 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\12klas\\Proshuteria\\proshuteria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meatcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meatcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meatcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meatcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meatcategories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meatcategories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meatcategories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meatcategories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meatcategories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meatcategories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meats\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meats\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meats\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meats\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meats\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meats\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meats\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meats\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\meats\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\meats\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\controllers\\meatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:controllers\\meatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\data\\meatcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:data\\meatcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\data\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:data\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\data\\meat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:data\\meat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|d:\\12klas\\proshuteria\\proshuteria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA6EC50D-BC7F-4643-9E33-929FD1BE5031}|proshuteria.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{df72777a-9fad-4a96-a35f-866efd0a1ce4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\MeatCategories\\Edit.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Edit.cshtml",
+              "RelativeToolTip": "Views\\MeatCategories\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:50:27.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Meats\\Create.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Create.cshtml",
+              "RelativeToolTip": "Views\\Meats\\Create.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:50:02.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Meats\\Delete.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Meats\\Delete.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:49:37.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Meats\\Edit.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Meats\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:49:08.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Delete.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:48:43.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:48:23.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\MeatCategories\\Index.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Index.cshtml",
+              "RelativeToolTip": "Views\\MeatCategories\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:45:28.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAwwLYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-16T11:34:38.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T11:36:50.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:37:51.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\MeatCategories\\Details.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Details.cshtml",
+              "RelativeToolTip": "Views\\MeatCategories\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:50:49.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\MeatCategories\\Create.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Create.cshtml",
+              "RelativeToolTip": "Views\\MeatCategories\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:51:28.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\MeatCategories\\Delete.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\MeatCategories\\Delete.cshtml",
+              "RelativeToolTip": "Views\\MeatCategories\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:51:07.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Meats\\Index.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Index.cshtml",
+              "RelativeToolTip": "Views\\Meats\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:44:35.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Edit.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:37:38.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:01:50.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Meats\\Details.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Details.cshtml",
+              "RelativeToolTip": "Views\\Meats\\Details.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T17:53:16.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAmwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:31:39.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwCoAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:50:44.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Home\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contacts.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Home\\Contacts.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contacts.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T15:56:25.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Products.cshtml",
+              "RelativeDocumentMoniker": "Views\\Meats\\Products.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Meats\\Products.cshtml",
+              "RelativeToolTip": "Views\\Meats\\Products.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T12:46:16.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAawCYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T11:53:31.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:02:32.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MeatsController.cs",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Controllers\\MeatsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MeatsController.cs",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Controllers\\MeatsController.cs",
+              "RelativeToolTip": "Controllers\\MeatsController.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAASwKsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:54:51.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T15:33:08.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationBuilderExtension.cs",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeDocumentMoniker": "Services\\ApplicationBuilderExtension.cs",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeToolTip": "Services\\ApplicationBuilderExtension.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwEIAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:54:51.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Data\\Client.cs",
+              "RelativeDocumentMoniker": "Data\\Client.cs",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Data\\Client.cs",
+              "RelativeToolTip": "Data\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:54:51.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "Data\\Order.cs",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Data\\Order.cs",
+              "RelativeToolTip": "Data\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:54:51.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MeatCategory.cs",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Data\\MeatCategory.cs",
+              "RelativeDocumentMoniker": "Data\\MeatCategory.cs",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Data\\MeatCategory.cs",
+              "RelativeToolTip": "Data\\MeatCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:54:51.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T19:54:51.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Meat.cs",
+              "DocumentMoniker": "D:\\12klas\\Proshuteria\\proshuteria\\Data\\Meat.cs",
+              "RelativeDocumentMoniker": "Data\\Meat.cs",
+              "ToolTip": "D:\\12klas\\Proshuteria\\proshuteria\\Data\\Meat.cs",
+              "RelativeToolTip": "Data\\Meat.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA+wBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:54:51.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,6 @@ namespace proshuteria.Data
 
         public string LastName { get; set; }
 
-        public ICollection<Order>Orders { get; set; } //1:M
+        public ICollection<Order> Orders { get; set; } //1:M
     }
 }

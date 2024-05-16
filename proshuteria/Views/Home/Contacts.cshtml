@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Контакти";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Локация</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.900890801239!2d24.802160999999998!3d42.642261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a9964d4bc9d5d1%3A0x5397bb2352cc166a!2z0KHQtdC80LXQtdC9INGF0L7RgtC10LsgItCf0LDQuiDQotCw0Lwi!5e0!3m2!1sbg!2sde!4v1675947335227!5m2!1sbg!2sde" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Свържете се с нас</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Име</label>
+                            <input type="text" class="form-control" id="name" placeholder="Въведете име">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Имейл адрес</label>
+                            <input type="email" class="form-control" id="email" placeholder="Въведете имейл адрес">
+                        </div>
+                        <div class="form-group">
+							<label for="phone">Телефонен номер</label>
+							<input type="text" class="form-control" id="phone" placeholder="Въведете телефонен номер">
+                            </div>
+                        <div class="form-group">
+                            <label for="message">Съобщение</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-2">Изпрати</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Данни за връзка</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="fa-solid fa-map-location-dot text-black"></i> гр. Карлово, улица Васил Карайванов 2А</li>
+                        <li class="list-group-item"><i class="fa-solid fa-envelope text-black"></i> contact@ruskisvqt.com</li>
+                        <li class="list-group-item"><i class="fa-solid fa-phone text-black"></i> +359884605288</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
